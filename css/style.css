@@ -1,0 +1,28 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: url('../img/wow.png') bottom center no-repeat;
+  	background-size: cover;
+  	font-size: 1em;
+}
+
+.centered {
+	
+}
+
+/****** tablets ******/
+
+@media screen and (min-width: 786px) {
+  h1 {
+    font-size: 3em;
+  }
+}
+
+/****** desktop ******/
+ 
+@media screen and (min-width: 1200px) {
+  h1 {
+    font-size: 4em;
+  }
+}
